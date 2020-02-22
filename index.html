@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta />
+    <title>Piedra, Papel, Tijera</title>
+    <link rel="stylesheet" href="styles.css" > </link>
+  </head>
+
+  <body>
+    <header>
+      <h1> Piedra Papel Tijera </h1>
+    </header>
+    <!--div are block levels elements, span are in line elements -->
+    
+    <div class="score-board">
+        <div id="user-label" class="badge">Usuario</div>
+        <div id= "computer-label" class="badge">Máquina</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result"> 
+    <p>Papel cubre Piedra. Tú ganas.</p>
+    </div>
+
+<div class="choices">
+
+    <div class= "choice" id="r">
+            <img src="Images/rock.png" alt="">
+        </div>
+   
+        <div class= "choice" id="p">
+            <img src="Images/paper.png" alt="">
+        </div>
+
+        <div class= "choice" id="s">
+                <img src="Images/scissors.png" alt="">
+        </div>
+</div>
+
+
+<p id="action-message">Es tu turno</p>
+    <script src="ppt.js"></script>
+  </body>
+</html>
